@@ -1,0 +1,55 @@
+body, html{
+    height: 850px;
+}
+
+body{
+    background-image: url("../Images/Background-main.jpg");
+    background-blend-mode: multiply;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 3%;
+    width: 15.6rem;
+    background-color: dimgray;
+}
+
+.card-body{
+    margin-top: -1%;
+    border: 1px solid silver;
+    height: 80px;
+    color: gold;
+}
+
+.card-body h5{
+    margin-top: 1%;
+    font-size: 1.1em;
+}
+
+.card-body p{
+    margin-top: -10%;
+    font-size: 1.1em;
+}
+
+#big-card{
+    margin-left: 15%;
+
+}
+
+#ask-name{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+
+#ask-languages{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+#ask-languages span{
+    color: aqua;
+}
