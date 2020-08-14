@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_GET['query']) && !empty($_GET['query'])){
+if  (isset($_GET['query']) && !empty($_GET['query'])){
     $result = [];
 
     foreach ($product as $product){
