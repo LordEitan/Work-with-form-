@@ -1,6 +1,6 @@
 <?php
 
- $product = [
+$product = [
   [
       'title' => 'Dnipro',
       'description' => 'This one of the city Europe which have Europe`s longest promenade',
